@@ -1,0 +1,62 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* กำหนดความกว้างให้กับ container เพื่อรองรับหน้าจอใหญ่และเล็ก */
+.code-entry-page, .surprise-page {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 400px;
+  max-width: 90%;
+}
+
+.code-input {
+  padding: 0.5rem;
+  width: 200px;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #ff6f91;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #ff3e6d;
+}
+
+/* Media Query สำหรับหน้าจอขนาดเล็ก */
+@media (max-width: 600px) {
+  .code-entry-page, .surprise-page {
+    padding: 1rem;
+    width: 90%;
+  }
+
+  .code-input {
+    width: 70%;
+    margin: 0 auto 1rem auto;
+    display: block;
+  }
+
+  .submit-btn {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+}
