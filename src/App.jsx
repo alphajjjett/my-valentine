@@ -49,8 +49,8 @@ function CodeEntryPage() {
 function SurprisePage() {
   return (
     <div className="h-screen w-screen flex flex-col items-center justify-center bg-gradient-to-r from-purple-300 to-pink-300">
-      <h1 className="text-5xl font-bold mb-8 text-pink-500 transition duration-300 ease-in-out transform hover:scale-110">
-        Happy Valentine’s Day!
+      <h1 className="text-5xl text-center font-bold mb-8 text-pink-500 transition duration-300 ease-in-out transform hover:scale-110">
+        Happy <br /> Valentine’s <br /> Day!
       </h1>
       <p className="text-xl text-pink-500 transition duration-300 ease-in-out transform hover:scale-105">
         รักเธอเสมอนะครับ 💝
